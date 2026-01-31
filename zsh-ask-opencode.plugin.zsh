@@ -48,7 +48,7 @@ ask_opencode() {
   # Generate commands
   local output
   output=$(_run_with_spinner opencode run --model "$ASK_OPENCODE_MODEL" \
-    "Generate 3 shell commands to: $user_prompt
+    "Generate the 3 simpliest shell commands to: $user_prompt
     Output format: command1\\0command2\\0command3
     Requirements:
     - Each command must be one line, no actual newlines
