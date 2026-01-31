@@ -89,7 +89,7 @@ ask_opencode() {
   local selected="${commands[1]}"
   if command -v fzf >/dev/null 2>&1; then
     selected=$(print -r -l -- "${commands[@]}" | \
-      fzf --height=40% --reverse --prompt="Select: " --border) || {
+      fzf --height=40% --reverse --prompt="$user_prompt > " --border) || {
       BUFFER="$user_prompt"
       CURSOR=${#BUFFER}
       zle reset-prompt
