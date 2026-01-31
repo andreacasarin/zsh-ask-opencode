@@ -23,7 +23,6 @@ _trim() {
 _run_with_spinner() {
   _ask_opencode_spinner &
   local spinner_pid=$!
-  disown
   
   local output
   output=$("$@" 2>&1)
