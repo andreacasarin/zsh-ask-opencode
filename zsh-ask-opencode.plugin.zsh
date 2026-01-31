@@ -5,7 +5,7 @@
 _ask_opencode_spinner() {
   local spinstr='⠋⠙⠹⠸⠼⠴⠦⠧⠇⠏'
   while true; do
-    printf "\r${spinstr:0:1} Asking OpenCode..." > /dev/tty
+    printf "\r${spinstr:0:1} Asking OpenCode for '$user_prompt'..." > /dev/tty
     spinstr="${spinstr:1}${spinstr:0:1}"
     sleep 0.1
   done
