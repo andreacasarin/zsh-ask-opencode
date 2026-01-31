@@ -2,6 +2,8 @@
 
 A simple ZSH plugin that integrates OpenCode AI with your shell, allowing you to generate shell commands using natural language. Press `Ctrl+O` to transform any text in your command line into optimized shell commands.
 
+![zsh-ask-opencode-screenshots](./zsh-ask-opencode-screenshots.jpg)
+
 ## Features
 
 - 🤖 **AI-powered command generation** using OpenCode API
@@ -11,7 +13,7 @@ A simple ZSH plugin that integrates OpenCode AI with your shell, allowing you to
 - 🔧 **Easy configuration** for model selection and debug output
 - ⌨️ **Single keybinding** (Ctrl+O) for quick access
 
-## Positive Outcomes
+## Outcomes
 
 - **Faster command composition** - generate complex shell commands instantly
 - **Learn shell commands** - see how experts would approach tasks
